@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(59, 12, 145);
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2.5px;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: rgba(16, 14, 134, 0.4);
+  color: white;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: url('/assets/GEL-HM-10243-0H2A7945-med.jpg');
+  color: white;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 600px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-button {
+  border-radius: 20px;
+  background-color: rgb(59, 12, 145);
+  color: white;
+  border: none;
+  width: 140px;
+  height: 45px;
+  letter-spacing: 2.5px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.header-button:hover {
+  width: 140px;
+  height: 45px;
+  background-color: rgb(59, 12, 145);
+  box-shadow: 0px 15px 20px rgba(16, 14, 134, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.header-text {
+  filter: drop-shadow(16px 16px 10px black);
+  letter-spacing: 2.5px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  border: 10px;
+  filter: drop-shadow(8px 8px 5px black);
+  border-radius: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2%;
+  flex: 1 16%;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.product-image img {
+  width: 100%;
+}
+
+.product-info {
+  margin-top: auto;
+  padding-top: 20px;
+  text-align: center;
+}
